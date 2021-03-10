@@ -1,8 +1,8 @@
 # This program asks the user to input a positive integer.
-# It then outputs successive values of the following calculation.
-# At each step, the next value is calculated by taking the input value,
-# and, if it is even, it is divided by two,
-# else if it is odd, it is multiplied by three, and one added.
+# It then outputs successive values of a calculation within a function.
+# At each step, the next value is calculated by taking the user's input value.
+# If it is even, it is divided by two.
+# Else if it is odd, it is multiplied by three, and one added.
 # The program ends if the current value equals one.
 # Author: Jonathon Grealish
 
