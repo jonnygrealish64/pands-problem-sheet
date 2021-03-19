@@ -2,13 +2,14 @@
 # The string then outputs every second letter in reverse order.
 # Author: Jonathon Grealish
 
-secondString = "The quick brown fox jumps over the lazy dog."
-secondArray = ["The", "quick", "brown", "fox", "jumps", "over", "the", "lazy", "dog."]
+s = input("Please enter a sentence: ")
+# used to input a string, eg, "The quick brown fox jumps over the lazy dog".
 
-for i in range(len(secondString)):
-    if i == 0:
-        print([""])
-    else:
-        print(secondString)
+reverse = s[::-1]
+# reverses the string and slices from the end to the start of the input (with ::-1).
 
-# The quick brown fox jumps over the lazy dog.
+alternate = reverse[::2]
+# removing every second character from the reversed string (with ::2).
+
+print(alternate)
+# prints the reversed string, with every second character removed.
